@@ -2,6 +2,7 @@
 
 (require "ansi.rkt")
 
+
 (for-each display (list (dec-soft-terminal-reset)
 
 			(select-graphic-rendition style-bold
